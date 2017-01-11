@@ -12,3 +12,15 @@ Please see [short descriptive file](./Doc/RegexWorkbench.htm) for more details
 
 #Alternatives
 [Expresso](http://www.ultrapico.com/expresso.htm) and [Regulator](http://regex.osherove.com/) - see [Regulator Code](https://sourceforge.net/projects/regulator/) have been around for a long time, however Expresso is closed-source and back when I grabbed the Regular Expression Workbench code I think Regulator was not fully open sourced.
+
+# Discussion notes
+
+- `RegexBuffer`
+- Better comment, more like "current state of the interpretation of the regex"
+- better name?
+
+RegexExpression
+- Can we extract helper methods in ToString and Parse?
+
+RegexItem
+- Check for opportunites to dry out common code in subclasses
